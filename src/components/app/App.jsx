@@ -3,9 +3,10 @@ import SearchPanel from '../search-panel'
 import TodoList from '../todo-list'
 import ItemStatusFilter from '../item-status-filter'
 
-import './app.css'
+import './App.css'
 
-const App = () => { //git accounts
+export default function App() {
+  //git accounts
   const todoData = [
     {label: 'Drink Coffee', important: false, id: 1},
     {label: 'Make Awesome App', important: true, id: 2},
@@ -24,4 +25,3 @@ const App = () => { //git accounts
     </div>
   )
 }
-export default App

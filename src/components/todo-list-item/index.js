@@ -1,3 +1,3 @@
-import TodoListItem from './todo-list-item'
+import TodoListItem from './Todo-list-item'
 
 export default TodoListItem
